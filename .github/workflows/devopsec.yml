@@ -22,7 +22,7 @@ jobs:
         dotnet-version: |
           5.0.x
           6.0.x
-          sarif
+          
     # Run analyzers
     - name: Run Microsoft Security DevOps Analysis
       uses: microsoft/security-devops-action@preview
